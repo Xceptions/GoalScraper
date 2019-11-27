@@ -1,0 +1,638 @@
+[2019-11-27 13:07:01,322] {dag_processing.py:820} INFO - Processing files using up to 1 processes at a time 
+[2019-11-27 13:07:01,322] {dag_processing.py:821} INFO - Process each file at most once every 0 seconds
+[2019-11-27 13:07:01,322] {dag_processing.py:823} INFO - Checking for new files in /home/exceptions/mlprojects/Airflow/goal_crawler/dags every 300 seconds
+[2019-11-27 13:07:01,324] {dag_processing.py:1286} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-11-27 13:07:01,324] {dag_processing.py:1290} INFO - Failing jobs without heartbeat after 2019-11-27 12:02:01.324313+00:00
+[2019-11-27 13:07:01,771] {dag_processing.py:1023} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/exceptions/mlprojects/Airflow/goal_crawler/dags/project_pipeline.py                                                                     0           0
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py                                               0           0
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/tutorial.py                                                          0           0
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.41s           2019-11-27T12:07:01
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                      0           0
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/test_utils.py                                                        0           0
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py                                           0           0
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0
+================================================================================
+[2019-11-27 13:07:13,324] {dag_processing.py:1286} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-11-27 13:07:13,325] {dag_processing.py:1290} INFO - Failing jobs without heartbeat after 2019-11-27 12:02:13.325020+00:00
+[2019-11-27 13:07:25,328] {dag_processing.py:1286} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-11-27 13:07:25,328] {dag_processing.py:1290} INFO - Failing jobs without heartbeat after 2019-11-27 12:02:25.328710+00:00
+[2019-11-27 13:07:33,747] {dag_processing.py:1023} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/exceptions/mlprojects/Airflow/goal_crawler/dags/project_pipeline.py                                                                     0           0
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.41s           2019-11-27T12:07:33
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.51s           2019-11-27T12:07:29
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.61s           2019-11-27T12:07:27
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.40s           2019-11-27T12:07:23
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.50s           2019-11-27T12:07:19
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.41s           2019-11-27T12:07:25
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.51s           2019-11-27T12:07:03
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.50s           2019-11-27T12:07:11
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.31s           2019-11-27T12:07:07
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.41s           2019-11-27T12:07:01
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.80s           2019-11-27T12:07:18
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.51s           2019-11-27T12:07:05
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.40s           2019-11-27T12:07:13
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  1.21s           2019-11-27T12:07:22
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.61s           2019-11-27T12:07:15
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  0.40s           2019-11-27T12:07:31
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.30s           2019-11-27T12:07:09
+================================================================================
+[2019-11-27 13:07:37,340] {dag_processing.py:1286} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-11-27 13:07:37,341] {dag_processing.py:1290} INFO - Failing jobs without heartbeat after 2019-11-27 12:02:37.341356+00:00
+[2019-11-27 13:08:01,990] {dag_processing.py:1286} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-11-27 13:08:01,990] {dag_processing.py:1290} INFO - Failing jobs without heartbeat after 2019-11-27 12:03:01.990653+00:00
+[2019-11-27 13:08:04,299] {dag_processing.py:1023} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.41s           2019-11-27T12:07:33
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.51s           2019-11-27T12:07:29
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.61s           2019-11-27T12:07:27
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.40s           2019-11-27T12:07:23
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.30s           2019-11-27T12:08:02
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.50s           2019-11-27T12:07:19
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.41s           2019-11-27T12:07:25
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.51s           2019-11-27T12:07:03
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.50s           2019-11-27T12:07:11
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.61s           2019-11-27T12:07:37
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.31s           2019-11-27T12:07:07
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.41s           2019-11-27T12:07:01
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.80s           2019-11-27T12:07:18
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.51s           2019-11-27T12:07:05
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.40s           2019-11-27T12:07:13
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.30s           2019-11-27T12:08:04
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  1.21s           2019-11-27T12:07:22
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.61s           2019-11-27T12:07:15
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  0.40s           2019-11-27T12:07:31
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.30s           2019-11-27T12:07:09
+/home/exceptions/mlprojects/Airflow/goal_crawler/dags/project_pipeline.py                                                                     1           0  1.31s           2019-11-27T12:07:36
+================================================================================
+[2019-11-27 13:08:14,002] {dag_processing.py:1286} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-11-27 13:08:14,003] {dag_processing.py:1290} INFO - Failing jobs without heartbeat after 2019-11-27 12:03:14.003196+00:00
+[2019-11-27 13:08:26,014] {dag_processing.py:1286} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-11-27 13:08:26,014] {dag_processing.py:1290} INFO - Failing jobs without heartbeat after 2019-11-27 12:03:26.014928+00:00
+[2019-11-27 13:08:34,636] {dag_processing.py:1023} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.41s           2019-11-27T12:07:33
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.61s           2019-11-27T12:08:34
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.50s           2019-11-27T12:08:32
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.91s           2019-11-27T12:08:28
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.30s           2019-11-27T12:08:02
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.30s           2019-11-27T12:08:24
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.40s           2019-11-27T12:08:30
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.30s           2019-11-27T12:08:08
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.30s           2019-11-27T12:08:16
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.61s           2019-11-27T12:07:37
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.20s           2019-11-27T12:08:12
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.30s           2019-11-27T12:08:06
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.30s           2019-11-27T12:08:22
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.30s           2019-11-27T12:08:10
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.30s           2019-11-27T12:08:18
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.30s           2019-11-27T12:08:04
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.81s           2019-11-27T12:08:26
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.40s           2019-11-27T12:08:20
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  0.40s           2019-11-27T12:07:31
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2019-11-27T12:08:14
+/home/exceptions/mlprojects/Airflow/goal_crawler/dags/project_pipeline.py                                                                     1           0  1.31s           2019-11-27T12:07:36
+================================================================================
+[2019-11-27 13:08:38,025] {dag_processing.py:1286} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-11-27 13:08:38,026] {dag_processing.py:1290} INFO - Failing jobs without heartbeat after 2019-11-27 12:03:38.026116+00:00
+[2019-11-27 13:09:00,958] {dag_processing.py:1286} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-11-27 13:09:00,959] {dag_processing.py:1290} INFO - Failing jobs without heartbeat after 2019-11-27 12:04:00.959359+00:00
+[2019-11-27 13:09:05,271] {dag_processing.py:1023} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.20s           2019-11-27T12:08:38
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.61s           2019-11-27T12:08:34
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.50s           2019-11-27T12:08:32
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.91s           2019-11-27T12:08:28
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.20s           2019-11-27T12:09:01
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.30s           2019-11-27T12:08:24
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.40s           2019-11-27T12:08:30
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.30s           2019-11-27T12:08:08
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.30s           2019-11-27T12:08:16
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.10s           2019-11-27T12:08:42
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.20s           2019-11-27T12:08:12
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.30s           2019-11-27T12:09:05
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.30s           2019-11-27T12:08:22
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.30s           2019-11-27T12:08:10
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.30s           2019-11-27T12:08:18
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.30s           2019-11-27T12:09:03
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.81s           2019-11-27T12:08:26
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.40s           2019-11-27T12:08:20
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  0.30s           2019-11-27T12:08:36
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2019-11-27T12:08:14
+/home/exceptions/mlprojects/Airflow/goal_crawler/dags/project_pipeline.py                                                                     1           0  1.11s           2019-11-27T12:08:41
+================================================================================
+[2019-11-27 13:09:10,969] {dag_processing.py:1286} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-11-27 13:09:10,970] {dag_processing.py:1290} INFO - Failing jobs without heartbeat after 2019-11-27 12:04:10.970014+00:00
+[2019-11-27 13:09:22,982] {dag_processing.py:1286} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-11-27 13:09:22,982] {dag_processing.py:1290} INFO - Failing jobs without heartbeat after 2019-11-27 12:04:22.982645+00:00
+[2019-11-27 13:09:34,999] {dag_processing.py:1286} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-11-27 13:09:35,000] {dag_processing.py:1290} INFO - Failing jobs without heartbeat after 2019-11-27 12:04:35.000453+00:00
+[2019-11-27 13:09:35,300] {dag_processing.py:1023} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.20s           2019-11-27T12:08:38
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.20s           2019-11-27T12:09:33
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.30s           2019-11-27T12:09:31
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.20s           2019-11-27T12:09:27
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.20s           2019-11-27T12:09:01
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.31s           2019-11-27T12:09:23
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.30s           2019-11-27T12:09:29
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.30s           2019-11-27T12:09:07
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.21s           2019-11-27T12:09:15
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.10s           2019-11-27T12:08:42
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.10s           2019-11-27T12:09:11
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.30s           2019-11-27T12:09:05
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.21s           2019-11-27T12:09:21
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.20s           2019-11-27T12:09:09
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.30s           2019-11-27T12:09:17
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.30s           2019-11-27T12:09:03
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.71s           2019-11-27T12:09:25
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.20s           2019-11-27T12:09:19
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  0.20s           2019-11-27T12:09:35
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2019-11-27T12:09:13
+/home/exceptions/mlprojects/Airflow/goal_crawler/dags/project_pipeline.py                                                                     1           0  1.11s           2019-11-27T12:08:41
+================================================================================
+[2019-11-27 13:09:47,004] {dag_processing.py:1286} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-11-27 13:09:47,004] {dag_processing.py:1290} INFO - Failing jobs without heartbeat after 2019-11-27 12:04:47.004948+00:00
+[2019-11-27 13:09:59,017] {dag_processing.py:1286} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-11-27 13:09:59,018] {dag_processing.py:1290} INFO - Failing jobs without heartbeat after 2019-11-27 12:04:59.018514+00:00
+[2019-11-27 13:10:05,331] {dag_processing.py:1023} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.41s           2019-11-27T12:09:37
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.20s           2019-11-27T12:09:33
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.30s           2019-11-27T12:09:31
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.20s           2019-11-27T12:09:27
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.40s           2019-11-27T12:09:43
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.30s           2019-11-27T12:10:05
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.30s           2019-11-27T12:09:29
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.20s           2019-11-27T12:09:49
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.20s           2019-11-27T12:09:57
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.20s           2019-11-27T12:09:41
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.20s           2019-11-27T12:09:53
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.30s           2019-11-27T12:09:47
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.20s           2019-11-27T12:10:03
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.20s           2019-11-27T12:09:51
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.40s           2019-11-27T12:09:59
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.20s           2019-11-27T12:09:45
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.71s           2019-11-27T12:09:25
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.20s           2019-11-27T12:10:01
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  0.20s           2019-11-27T12:09:35
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2019-11-27T12:09:55
+/home/exceptions/mlprojects/Airflow/goal_crawler/dags/project_pipeline.py                                                                     1           0  0.91s           2019-11-27T12:09:39
+================================================================================
+[2019-11-27 13:10:11,031] {dag_processing.py:1286} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-11-27 13:10:11,032] {dag_processing.py:1290} INFO - Failing jobs without heartbeat after 2019-11-27 12:05:11.032398+00:00
+[2019-11-27 13:10:23,043] {dag_processing.py:1286} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-11-27 13:10:23,044] {dag_processing.py:1290} INFO - Failing jobs without heartbeat after 2019-11-27 12:05:23.044088+00:00
+[2019-11-27 13:10:35,052] {dag_processing.py:1286} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-11-27 13:10:35,052] {dag_processing.py:1290} INFO - Failing jobs without heartbeat after 2019-11-27 12:05:35.052817+00:00
+[2019-11-27 13:10:37,166] {dag_processing.py:1023} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.41s           2019-11-27T12:10:19
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.30s           2019-11-27T12:10:15
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.30s           2019-11-27T12:10:13
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.31s           2019-11-27T12:10:09
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.40s           2019-11-27T12:10:25
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.30s           2019-11-27T12:10:05
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.20s           2019-11-27T12:10:11
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.30s           2019-11-27T12:10:31
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.20s           2019-11-27T12:09:57
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.32s           2019-11-27T12:10:23
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.10s           2019-11-27T12:10:35
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.20s           2019-11-27T12:10:29
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.20s           2019-11-27T12:10:03
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.30s           2019-11-27T12:10:33
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.40s           2019-11-27T12:09:59
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.40s           2019-11-27T12:10:27
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.61s           2019-11-27T12:10:07
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.20s           2019-11-27T12:10:01
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  0.30s           2019-11-27T12:10:17
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.11s           2019-11-27T12:10:37
+/home/exceptions/mlprojects/Airflow/goal_crawler/dags/project_pipeline.py                                                                     1           0  1.41s           2019-11-27T12:10:22
+================================================================================
+[2019-11-27 13:10:47,064] {dag_processing.py:1286} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-11-27 13:10:47,065] {dag_processing.py:1290} INFO - Failing jobs without heartbeat after 2019-11-27 12:05:47.065311+00:00
+[2019-11-27 13:10:59,080] {dag_processing.py:1286} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-11-27 13:10:59,081] {dag_processing.py:1290} INFO - Failing jobs without heartbeat after 2019-11-27 12:05:59.081314+00:00
+[2019-11-27 13:11:07,396] {dag_processing.py:1023} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.31s           2019-11-27T12:11:01
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.20s           2019-11-27T12:10:57
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.30s           2019-11-27T12:10:55
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.20s           2019-11-27T12:10:51
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.30s           2019-11-27T12:11:07
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.30s           2019-11-27T12:10:47
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.30s           2019-11-27T12:10:53
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.30s           2019-11-27T12:10:31
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.41s           2019-11-27T12:10:39
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.21s           2019-11-27T12:11:05
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.10s           2019-11-27T12:10:35
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.20s           2019-11-27T12:10:29
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.20s           2019-11-27T12:10:45
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.30s           2019-11-27T12:10:33
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.30s           2019-11-27T12:10:41
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.40s           2019-11-27T12:10:27
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.71s           2019-11-27T12:10:49
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.20s           2019-11-27T12:10:43
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  0.30s           2019-11-27T12:10:59
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.11s           2019-11-27T12:10:37
+/home/exceptions/mlprojects/Airflow/goal_crawler/dags/project_pipeline.py                                                                     1           0  0.81s           2019-11-27T12:11:03
+================================================================================
+[2019-11-27 13:11:11,089] {dag_processing.py:1286} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-11-27 13:11:11,089] {dag_processing.py:1290} INFO - Failing jobs without heartbeat after 2019-11-27 12:06:11.089962+00:00
+[2019-11-27 13:11:21,102] {dag_processing.py:1286} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-11-27 13:11:21,103] {dag_processing.py:1290} INFO - Failing jobs without heartbeat after 2019-11-27 12:06:21.102969+00:00
+[2019-11-27 13:11:31,112] {dag_processing.py:1286} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-11-27 13:11:31,112] {dag_processing.py:1290} INFO - Failing jobs without heartbeat after 2019-11-27 12:06:31.112950+00:00
+[2019-11-27 13:11:37,428] {dag_processing.py:1023} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.31s           2019-11-27T12:11:01
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.20s           2019-11-27T12:10:57
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.30s           2019-11-27T12:11:37
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.30s           2019-11-27T12:11:33
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.30s           2019-11-27T12:11:07
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.30s           2019-11-27T12:11:29
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.31s           2019-11-27T12:11:35
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.20s           2019-11-27T12:11:13
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.21s           2019-11-27T12:11:21
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.21s           2019-11-27T12:11:05
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.12s           2019-11-27T12:11:17
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.41s           2019-11-27T12:11:11
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.41s           2019-11-27T12:11:27
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.30s           2019-11-27T12:11:15
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.51s           2019-11-27T12:11:23
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.30s           2019-11-27T12:11:09
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.71s           2019-11-27T12:11:31
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.30s           2019-11-27T12:11:25
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  0.30s           2019-11-27T12:10:59
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2019-11-27T12:11:19
+/home/exceptions/mlprojects/Airflow/goal_crawler/dags/project_pipeline.py                                                                     1           0  0.81s           2019-11-27T12:11:03
+================================================================================
+[2019-11-27 13:11:41,122] {dag_processing.py:1286} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-11-27 13:11:41,123] {dag_processing.py:1290} INFO - Failing jobs without heartbeat after 2019-11-27 12:06:41.123240+00:00
+[2019-11-27 13:11:53,135] {dag_processing.py:1286} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-11-27 13:11:53,136] {dag_processing.py:1290} INFO - Failing jobs without heartbeat after 2019-11-27 12:06:53.136124+00:00
+[2019-11-27 13:12:03,144] {dag_processing.py:910} INFO - Searching for files in /home/exceptions/mlprojects/Airflow/goal_crawler/dags
+[2019-11-27 13:12:03,153] {dag_processing.py:913} INFO - There are 21 files in /home/exceptions/mlprojects/Airflow/goal_crawler/dags
+[2019-11-27 13:12:03,164] {dag_processing.py:1286} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-11-27 13:12:03,165] {dag_processing.py:1290} INFO - Failing jobs without heartbeat after 2019-11-27 12:07:03.165166+00:00
+[2019-11-27 13:12:07,459] {dag_processing.py:1023} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.30s           2019-11-27T12:11:43
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.30s           2019-11-27T12:11:39
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.30s           2019-11-27T12:11:37
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.30s           2019-11-27T12:11:33
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.20s           2019-11-27T12:11:49
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.30s           2019-11-27T12:11:29
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.31s           2019-11-27T12:11:35
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.30s           2019-11-27T12:11:55
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.30s           2019-11-27T12:12:03
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.20s           2019-11-27T12:11:47
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.51s           2019-11-27T12:11:59
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.30s           2019-11-27T12:11:53
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.41s           2019-11-27T12:11:27
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.20s           2019-11-27T12:11:57
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.30s           2019-11-27T12:12:05
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.30s           2019-11-27T12:11:51
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.71s           2019-11-27T12:11:31
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.30s           2019-11-27T12:12:07
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  0.40s           2019-11-27T12:11:41
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2019-11-27T12:12:01
+/home/exceptions/mlprojects/Airflow/goal_crawler/dags/project_pipeline.py                                                                     1           0  0.81s           2019-11-27T12:11:45
+================================================================================
+[2019-11-27 13:12:15,158] {dag_processing.py:1286} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-11-27 13:12:15,158] {dag_processing.py:1290} INFO - Failing jobs without heartbeat after 2019-11-27 12:07:15.158757+00:00
+[2019-11-27 13:12:25,169] {dag_processing.py:1286} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-11-27 13:12:25,170] {dag_processing.py:1290} INFO - Failing jobs without heartbeat after 2019-11-27 12:07:25.170127+00:00
+[2019-11-27 13:12:37,182] {dag_processing.py:1286} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-11-27 13:12:37,182] {dag_processing.py:1290} INFO - Failing jobs without heartbeat after 2019-11-27 12:07:37.182569+00:00
+[2019-11-27 13:12:37,495] {dag_processing.py:1023} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.20s           2019-11-27T12:12:25
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.20s           2019-11-27T12:12:21
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.30s           2019-11-27T12:12:19
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.21s           2019-11-27T12:12:15
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.31s           2019-11-27T12:12:31
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.30s           2019-11-27T12:12:11
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.31s           2019-11-27T12:12:17
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.30s           2019-11-27T12:12:37
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.30s           2019-11-27T12:12:03
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.20s           2019-11-27T12:12:29
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.51s           2019-11-27T12:11:59
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.20s           2019-11-27T12:12:35
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.20s           2019-11-27T12:12:09
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.20s           2019-11-27T12:11:57
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.30s           2019-11-27T12:12:05
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.31s           2019-11-27T12:12:33
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.81s           2019-11-27T12:12:13
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.30s           2019-11-27T12:12:07
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  0.30s           2019-11-27T12:12:23
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2019-11-27T12:12:01
+/home/exceptions/mlprojects/Airflow/goal_crawler/dags/project_pipeline.py                                                                     1           0  0.71s           2019-11-27T12:12:27
+================================================================================
+[2019-11-27 13:12:47,193] {dag_processing.py:1286} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-11-27 13:12:47,194] {dag_processing.py:1290} INFO - Failing jobs without heartbeat after 2019-11-27 12:07:47.194285+00:00
+[2019-11-27 13:12:59,206] {dag_processing.py:1286} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-11-27 13:12:59,206] {dag_processing.py:1290} INFO - Failing jobs without heartbeat after 2019-11-27 12:07:59.206718+00:00
+[2019-11-27 13:13:10,031] {dag_processing.py:1023} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.20s           2019-11-27T12:13:07
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.20s           2019-11-27T12:13:03
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.30s           2019-11-27T12:13:01
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.20s           2019-11-27T12:12:57
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.31s           2019-11-27T12:12:31
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.51s           2019-11-27T12:12:53
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.30s           2019-11-27T12:12:59
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.30s           2019-11-27T12:12:37
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.20s           2019-11-27T12:12:45
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.20s           2019-11-27T12:12:29
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.20s           2019-11-27T12:12:41
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.20s           2019-11-27T12:12:35
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.21s           2019-11-27T12:12:51
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.30s           2019-11-27T12:12:39
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.31s           2019-11-27T12:12:47
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.31s           2019-11-27T12:12:33
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.61s           2019-11-27T12:12:55
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.20s           2019-11-27T12:12:49
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  0.31s           2019-11-27T12:13:05
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2019-11-27T12:12:43
+/home/exceptions/mlprojects/Airflow/goal_crawler/dags/project_pipeline.py                                                                     1           0  0.81s           2019-11-27T12:13:10
+================================================================================
+[2019-11-27 13:13:11,218] {dag_processing.py:1286} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-11-27 13:13:11,218] {dag_processing.py:1290} INFO - Failing jobs without heartbeat after 2019-11-27 12:08:11.218901+00:00
+[2019-11-27 13:13:21,229] {dag_processing.py:1286} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-11-27 13:13:21,229] {dag_processing.py:1290} INFO - Failing jobs without heartbeat after 2019-11-27 12:08:21.229611+00:00
+[2019-11-27 13:13:33,238] {dag_processing.py:1286} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-11-27 13:13:33,239] {dag_processing.py:1290} INFO - Failing jobs without heartbeat after 2019-11-27 12:08:33.239288+00:00
+[2019-11-27 13:13:41,457] {dag_processing.py:1023} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.20s           2019-11-27T12:13:07
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.20s           2019-11-27T12:13:03
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.30s           2019-11-27T12:13:01
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.31s           2019-11-27T12:13:39
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.20s           2019-11-27T12:13:13
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.30s           2019-11-27T12:13:35
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.21s           2019-11-27T12:13:41
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.20s           2019-11-27T12:13:19
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.31s           2019-11-27T12:13:27
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.20s           2019-11-27T12:13:11
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.20s           2019-11-27T12:13:23
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.30s           2019-11-27T12:13:17
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.30s           2019-11-27T12:13:33
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.20s           2019-11-27T12:13:21
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.41s           2019-11-27T12:13:29
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.61s           2019-11-27T12:13:15
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.71s           2019-11-27T12:13:37
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.30s           2019-11-27T12:13:31
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  0.31s           2019-11-27T12:13:05
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2019-11-27T12:13:25
+/home/exceptions/mlprojects/Airflow/goal_crawler/dags/project_pipeline.py                                                                     1           0  0.81s           2019-11-27T12:13:10
+================================================================================
+[2019-11-27 13:13:43,249] {dag_processing.py:1286} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-11-27 13:13:43,249] {dag_processing.py:1290} INFO - Failing jobs without heartbeat after 2019-11-27 12:08:43.249382+00:00
+[2019-11-27 13:13:53,259] {dag_processing.py:1286} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-11-27 13:13:53,260] {dag_processing.py:1290} INFO - Failing jobs without heartbeat after 2019-11-27 12:08:53.260318+00:00
+[2019-11-27 13:14:03,270] {dag_processing.py:1286} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-11-27 13:14:03,271] {dag_processing.py:1290} INFO - Failing jobs without heartbeat after 2019-11-27 12:09:03.271286+00:00
+[2019-11-27 13:14:11,590] {dag_processing.py:1023} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.21s           2019-11-27T12:13:49
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.20s           2019-11-27T12:13:45
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.30s           2019-11-27T12:13:43
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.31s           2019-11-27T12:13:39
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.30s           2019-11-27T12:13:55
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.30s           2019-11-27T12:13:35
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.21s           2019-11-27T12:13:41
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.30s           2019-11-27T12:14:01
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.21s           2019-11-27T12:14:09
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.20s           2019-11-27T12:13:53
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.20s           2019-11-27T12:14:05
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.41s           2019-11-27T12:13:59
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.30s           2019-11-27T12:13:33
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.20s           2019-11-27T12:14:03
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.30s           2019-11-27T12:14:11
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.20s           2019-11-27T12:13:57
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.71s           2019-11-27T12:13:37
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.30s           2019-11-27T12:13:31
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  0.30s           2019-11-27T12:13:47
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2019-11-27T12:14:07
+/home/exceptions/mlprojects/Airflow/goal_crawler/dags/project_pipeline.py                                                                     1           0  0.71s           2019-11-27T12:13:51
+================================================================================
+[2019-11-27 13:14:13,281] {dag_processing.py:1286} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-11-27 13:14:13,281] {dag_processing.py:1290} INFO - Failing jobs without heartbeat after 2019-11-27 12:09:13.281942+00:00
+[2019-11-27 13:14:23,292] {dag_processing.py:1286} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-11-27 13:14:23,293] {dag_processing.py:1290} INFO - Failing jobs without heartbeat after 2019-11-27 12:09:23.293131+00:00
+[2019-11-27 13:14:35,305] {dag_processing.py:1286} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-11-27 13:14:35,306] {dag_processing.py:1290} INFO - Failing jobs without heartbeat after 2019-11-27 12:09:35.306268+00:00
+[2019-11-27 13:14:41,622] {dag_processing.py:1023} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.30s           2019-11-27T12:14:31
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.20s           2019-11-27T12:14:27
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.20s           2019-11-27T12:14:25
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.20s           2019-11-27T12:14:21
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.31s           2019-11-27T12:14:37
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.30s           2019-11-27T12:14:17
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.21s           2019-11-27T12:14:23
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.30s           2019-11-27T12:14:01
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.21s           2019-11-27T12:14:09
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.21s           2019-11-27T12:14:35
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.20s           2019-11-27T12:14:05
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.31s           2019-11-27T12:14:41
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.20s           2019-11-27T12:14:15
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.20s           2019-11-27T12:14:03
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.30s           2019-11-27T12:14:11
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.20s           2019-11-27T12:14:39
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.60s           2019-11-27T12:14:19
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.20s           2019-11-27T12:14:13
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  0.31s           2019-11-27T12:14:29
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2019-11-27T12:14:07
+/home/exceptions/mlprojects/Airflow/goal_crawler/dags/project_pipeline.py                                                                     1           0  0.81s           2019-11-27T12:14:34
+================================================================================
+[2019-11-27 13:14:47,322] {dag_processing.py:1286} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-11-27 13:14:47,322] {dag_processing.py:1290} INFO - Failing jobs without heartbeat after 2019-11-27 12:09:47.322648+00:00
+[2019-11-27 13:14:59,331] {dag_processing.py:1286} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-11-27 13:14:59,331] {dag_processing.py:1290} INFO - Failing jobs without heartbeat after 2019-11-27 12:09:59.331523+00:00
+[2019-11-27 13:15:11,344] {dag_processing.py:1286} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-11-27 13:15:11,344] {dag_processing.py:1290} INFO - Failing jobs without heartbeat after 2019-11-27 12:10:11.344662+00:00
+[2019-11-27 13:15:11,894] {dag_processing.py:1023} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.30s           2019-11-27T12:14:31
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.20s           2019-11-27T12:15:09
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.20s           2019-11-27T12:15:07
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.41s           2019-11-27T12:15:03
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.31s           2019-11-27T12:14:37
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.21s           2019-11-27T12:14:59
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.31s           2019-11-27T12:15:05
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.20s           2019-11-27T12:14:43
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.20s           2019-11-27T12:14:51
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.21s           2019-11-27T12:14:35
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.10s           2019-11-27T12:14:47
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.31s           2019-11-27T12:14:41
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.20s           2019-11-27T12:14:57
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.30s           2019-11-27T12:14:45
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.30s           2019-11-27T12:14:53
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.20s           2019-11-27T12:14:39
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.71s           2019-11-27T12:15:02
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.20s           2019-11-27T12:14:55
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  0.40s           2019-11-27T12:15:11
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2019-11-27T12:14:49
+/home/exceptions/mlprojects/Airflow/goal_crawler/dags/project_pipeline.py                                                                     1           0  0.81s           2019-11-27T12:14:34
+================================================================================
+[2019-11-27 13:15:23,358] {dag_processing.py:1286} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-11-27 13:15:23,359] {dag_processing.py:1290} INFO - Failing jobs without heartbeat after 2019-11-27 12:10:23.359041+00:00
+[2019-11-27 13:15:35,369] {dag_processing.py:1286} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-11-27 13:15:35,370] {dag_processing.py:1290} INFO - Failing jobs without heartbeat after 2019-11-27 12:10:35.370005+00:00
+[2019-11-27 13:15:44,389] {dag_processing.py:1023} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.31s           2019-11-27T12:15:13
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.20s           2019-11-27T12:15:09
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.20s           2019-11-27T12:15:07
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.41s           2019-11-27T12:15:03
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.40s           2019-11-27T12:15:19
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.30s           2019-11-27T12:15:41
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.31s           2019-11-27T12:15:05
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.20s           2019-11-27T12:15:25
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.20s           2019-11-27T12:15:33
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.20s           2019-11-27T12:15:17
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.20s           2019-11-27T12:15:29
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.30s           2019-11-27T12:15:23
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.40s           2019-11-27T12:15:39
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.30s           2019-11-27T12:15:27
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.31s           2019-11-27T12:15:35
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.61s           2019-11-27T12:15:21
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  1.01s           2019-11-27T12:15:44
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.21s           2019-11-27T12:15:37
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  0.40s           2019-11-27T12:15:11
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2019-11-27T12:15:31
+/home/exceptions/mlprojects/Airflow/goal_crawler/dags/project_pipeline.py                                                                     1           0  0.81s           2019-11-27T12:15:16
+================================================================================
+[2019-11-27 13:15:47,382] {dag_processing.py:1286} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-11-27 13:15:47,382] {dag_processing.py:1290} INFO - Failing jobs without heartbeat after 2019-11-27 12:10:47.382906+00:00
+[2019-11-27 13:15:59,394] {dag_processing.py:1286} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-11-27 13:15:59,395] {dag_processing.py:1290} INFO - Failing jobs without heartbeat after 2019-11-27 12:10:59.395194+00:00
+[2019-11-27 13:16:11,408] {dag_processing.py:1286} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-11-27 13:16:11,408] {dag_processing.py:1290} INFO - Failing jobs without heartbeat after 2019-11-27 12:11:11.408640+00:00
+[2019-11-27 13:16:15,621] {dag_processing.py:1023} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.20s           2019-11-27T12:15:55
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.30s           2019-11-27T12:15:51
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.41s           2019-11-27T12:15:49
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.30s           2019-11-27T12:15:45
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.30s           2019-11-27T12:16:01
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.30s           2019-11-27T12:15:41
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.20s           2019-11-27T12:15:47
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.30s           2019-11-27T12:16:07
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.20s           2019-11-27T12:16:15
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.20s           2019-11-27T12:15:59
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.10s           2019-11-27T12:16:11
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.31s           2019-11-27T12:16:05
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.40s           2019-11-27T12:15:39
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.31s           2019-11-27T12:16:09
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.31s           2019-11-27T12:15:35
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.20s           2019-11-27T12:16:03
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  1.01s           2019-11-27T12:15:44
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.21s           2019-11-27T12:15:37
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  0.30s           2019-11-27T12:15:53
+/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2019-11-27T12:16:13
+/home/exceptions/mlprojects/Airflow/goal_crawler/dags/project_pipeline.py                                                                     1           0  0.71s           2019-11-27T12:15:58
+================================================================================
+[2019-11-27 13:16:23,421] {dag_processing.py:1286} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-11-27 13:16:23,421] {dag_processing.py:1290} INFO - Failing jobs without heartbeat after 2019-11-27 12:11:23.421798+00:00
+[2019-11-27 13:16:35,434] {dag_processing.py:1286} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-11-27 13:16:35,435] {dag_processing.py:1290} INFO - Failing jobs without heartbeat after 2019-11-27 12:11:35.434964+00:00
+[2019-11-27 13:16:42,094] {dag_processing.py:806} INFO - Exiting gracefully upon receiving signal 15
+[2019-11-27 13:16:43,094] {dag_processing.py:806} INFO - Exiting gracefully upon receiving signal 15
+[2019-11-27 13:16:43,114] {dag_processing.py:1372} INFO - Waiting up to 5 seconds for processes to exit...

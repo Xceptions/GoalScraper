@@ -1,0 +1,179 @@
+[2019-11-27 13:07:45,650] {taskinstance.py:630} INFO - Dependencies all met for <TaskInstance: project_pipeline.run_goal_crawler 2019-11-17T00:00:00+00:00 [queued]>
+[2019-11-27 13:07:45,690] {taskinstance.py:630} INFO - Dependencies all met for <TaskInstance: project_pipeline.run_goal_crawler 2019-11-17T00:00:00+00:00 [queued]>
+[2019-11-27 13:07:45,691] {taskinstance.py:841} INFO - 
+--------------------------------------------------------------------------------
+[2019-11-27 13:07:45,692] {taskinstance.py:842} INFO - Starting attempt 1 of 1
+[2019-11-27 13:07:45,706] {taskinstance.py:843} INFO - 
+--------------------------------------------------------------------------------
+[2019-11-27 13:07:45,813] {taskinstance.py:862} INFO - Executing <Task(PythonOperator): run_goal_crawler> on 2019-11-17T00:00:00+00:00
+[2019-11-27 13:07:45,813] {base_task_runner.py:133} INFO - Running: ['airflow', 'run', 'project_pipeline', 'run_goal_crawler', '2019-11-17T00:00:00+00:00', '--job_id', '2', '--pool', 'default_pool', '--raw', '-sd', 'DAGS_FOLDER/project_pipeline.py', '--cfg_path', '/tmp/tmp36a6tlaw']
+[2019-11-27 13:07:46,704] {base_task_runner.py:115} INFO - Job 2: Subtask run_goal_crawler /home/exceptions/env3.7/lib/python3.7/site-packages/airflow/configuration.py:627: DeprecationWarning: You have two airflow.cfg files: /home/exceptions/airflow/airflow.cfg and /home/exceptions/mlprojects/Airflow/goal_crawler/airflow.cfg. Airflow used to look at ~/airflow/airflow.cfg, even when AIRFLOW_HOME was set to a different value. Airflow will now only read /home/exceptions/mlprojects/Airflow/goal_crawler/airflow.cfg, and you should remove the other file
+[2019-11-27 13:07:46,704] {base_task_runner.py:115} INFO - Job 2: Subtask run_goal_crawler   category=DeprecationWarning,
+[2019-11-27 13:07:47,540] {base_task_runner.py:115} INFO - Job 2: Subtask run_goal_crawler [2019-11-27 13:07:47,538] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2019-11-27 13:07:47,541] {base_task_runner.py:115} INFO - Job 2: Subtask run_goal_crawler [2019-11-27 13:07:47,541] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/goal_crawler/dags/project_pipeline.py
+[2019-11-27 13:07:48,117] {base_task_runner.py:115} INFO - Job 2: Subtask run_goal_crawler [2019-11-27 13:07:48,116] {cli.py:545} INFO - Running <TaskInstance: project_pipeline.run_goal_crawler 2019-11-17T00:00:00+00:00 [running]> on host exceptions
+[2019-11-27 13:07:48,169] {python_operator.py:105} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_ID=project_pipeline
+AIRFLOW_CTX_TASK_ID=run_goal_crawler
+AIRFLOW_CTX_EXECUTION_DATE=2019-11-17T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-11-17T00:00:00+00:00
+[2019-11-27 13:07:50,479] {logging_mixin.py:112} INFO - [2019-11-27 13:07:50,479] {local_task_job.py:124} WARNING - Time since last heartbeat(0.15 s) < heartrate(5.0 s), sleeping for 4.854524 s
+[2019-11-27 13:07:55,503] {logging_mixin.py:112} INFO - [2019-11-27 13:07:55,503] {local_task_job.py:124} WARNING - Time since last heartbeat(0.07 s) < heartrate(5.0 s), sleeping for 4.931198 s
+[2019-11-27 13:07:58,315] {taskinstance.py:1058} ERROR - got invalid input value of type <class 'xml.etree.ElementTree.Element'>, expected string or Element
+Traceback (most recent call last):
+  File "/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 930, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/operators/python_operator.py", line 113, in execute
+    return_value = self.execute_callable()
+  File "/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/operators/python_operator.py", line 118, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "./src/goal_crawler.py", line 22, in __init__
+    self.save_to_excel()
+  File "./src/goal_crawler.py", line 52, in save_to_excel
+    sheet_name=date_i.split(" ")[0]
+  File "/home/exceptions/env3.7/lib/python3.7/site-packages/pandas/io/excel/_base.py", line 779, in __exit__
+    self.close()
+  File "/home/exceptions/env3.7/lib/python3.7/site-packages/pandas/io/excel/_base.py", line 783, in close
+    return self.save()
+  File "/home/exceptions/env3.7/lib/python3.7/site-packages/pandas/io/excel/_openpyxl.py", line 44, in save
+    return self.book.save(self.path)
+  File "/home/exceptions/env3.7/lib/python3.7/site-packages/openpyxl/workbook/workbook.py", line 408, in save
+    save_workbook(self, filename)
+  File "/home/exceptions/env3.7/lib/python3.7/site-packages/openpyxl/writer/excel.py", line 293, in save_workbook
+    writer.save()
+  File "/home/exceptions/env3.7/lib/python3.7/site-packages/openpyxl/writer/excel.py", line 275, in save
+    self.write_data()
+  File "/home/exceptions/env3.7/lib/python3.7/site-packages/openpyxl/writer/excel.py", line 75, in write_data
+    self._write_worksheets()
+  File "/home/exceptions/env3.7/lib/python3.7/site-packages/openpyxl/writer/excel.py", line 215, in _write_worksheets
+    self.write_worksheet(ws)
+  File "/home/exceptions/env3.7/lib/python3.7/site-packages/openpyxl/writer/excel.py", line 200, in write_worksheet
+    writer.write()
+  File "/home/exceptions/env3.7/lib/python3.7/site-packages/openpyxl/worksheet/_writer.py", line 354, in write
+    self.write_top()
+  File "/home/exceptions/env3.7/lib/python3.7/site-packages/openpyxl/worksheet/_writer.py", line 98, in write_top
+    self.write_properties()
+  File "/home/exceptions/env3.7/lib/python3.7/site-packages/openpyxl/worksheet/_writer.py", line 60, in write_properties
+    self.xf.send(props.to_tree())
+  File "/home/exceptions/env3.7/lib/python3.7/site-packages/openpyxl/worksheet/_writer.py", line 294, in get_stream
+    xf.write(el)
+  File "src/lxml/serializer.pxi", line 1652, in lxml.etree._IncrementalFileWriter.write
+TypeError: got invalid input value of type <class 'xml.etree.ElementTree.Element'>, expected string or Element
+[2019-11-27 13:07:58,366] {taskinstance.py:1089} INFO - Marking task as FAILED.
+[2019-11-27 13:07:58,381] {logging_mixin.py:112} INFO - [2019-11-27 13:07:58,381] {configuration.py:299} WARNING - section/key [smtp/smtp_user] not found in config
+[2019-11-27 13:07:58,383] {taskinstance.py:1093} ERROR - Failed to send email to: ['agbokenechukwu.k@gmail.com']
+[2019-11-27 13:07:58,383] {taskinstance.py:1094} ERROR - [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 930, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/operators/python_operator.py", line 113, in execute
+    return_value = self.execute_callable()
+  File "/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/operators/python_operator.py", line 118, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "./src/goal_crawler.py", line 22, in __init__
+    self.save_to_excel()
+  File "./src/goal_crawler.py", line 52, in save_to_excel
+    sheet_name=date_i.split(" ")[0]
+  File "/home/exceptions/env3.7/lib/python3.7/site-packages/pandas/io/excel/_base.py", line 779, in __exit__
+    self.close()
+  File "/home/exceptions/env3.7/lib/python3.7/site-packages/pandas/io/excel/_base.py", line 783, in close
+    return self.save()
+  File "/home/exceptions/env3.7/lib/python3.7/site-packages/pandas/io/excel/_openpyxl.py", line 44, in save
+    return self.book.save(self.path)
+  File "/home/exceptions/env3.7/lib/python3.7/site-packages/openpyxl/workbook/workbook.py", line 408, in save
+    save_workbook(self, filename)
+  File "/home/exceptions/env3.7/lib/python3.7/site-packages/openpyxl/writer/excel.py", line 293, in save_workbook
+    writer.save()
+  File "/home/exceptions/env3.7/lib/python3.7/site-packages/openpyxl/writer/excel.py", line 275, in save
+    self.write_data()
+  File "/home/exceptions/env3.7/lib/python3.7/site-packages/openpyxl/writer/excel.py", line 75, in write_data
+    self._write_worksheets()
+  File "/home/exceptions/env3.7/lib/python3.7/site-packages/openpyxl/writer/excel.py", line 215, in _write_worksheets
+    self.write_worksheet(ws)
+  File "/home/exceptions/env3.7/lib/python3.7/site-packages/openpyxl/writer/excel.py", line 200, in write_worksheet
+    writer.write()
+  File "/home/exceptions/env3.7/lib/python3.7/site-packages/openpyxl/worksheet/_writer.py", line 354, in write
+    self.write_top()
+  File "/home/exceptions/env3.7/lib/python3.7/site-packages/openpyxl/worksheet/_writer.py", line 98, in write_top
+    self.write_properties()
+  File "/home/exceptions/env3.7/lib/python3.7/site-packages/openpyxl/worksheet/_writer.py", line 60, in write_properties
+    self.xf.send(props.to_tree())
+  File "/home/exceptions/env3.7/lib/python3.7/site-packages/openpyxl/worksheet/_writer.py", line 294, in get_stream
+    xf.write(el)
+  File "src/lxml/serializer.pxi", line 1652, in lxml.etree._IncrementalFileWriter.write
+TypeError: got invalid input value of type <class 'xml.etree.ElementTree.Element'>, expected string or Element
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1091, in handle_failure
+    self.email_alert(error)
+  File "/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1305, in email_alert
+    send_email(self.task.email, subject, html_content)
+  File "/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/utils/email.py", line 55, in send_email
+    mime_subtype=mime_subtype, mime_charset=mime_charset, **kwargs)
+  File "/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/utils/email.py", line 101, in send_email_smtp
+    send_MIME_email(smtp_mail_from, recipients, msg, dryrun)
+  File "/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/utils/email.py", line 121, in send_MIME_email
+    s = smtplib.SMTP_SSL(SMTP_HOST, SMTP_PORT) if SMTP_SSL else smtplib.SMTP(SMTP_HOST, SMTP_PORT)
+  File "/usr/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/lib/python3.7/smtplib.py", line 307, in _get_socket
+    self.source_address)
+  File "/usr/lib/python3.7/socket.py", line 727, in create_connection
+    raise err
+  File "/usr/lib/python3.7/socket.py", line 716, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+[2019-11-27 13:07:58,677] {base_task_runner.py:115} INFO - Job 2: Subtask run_goal_crawler Traceback (most recent call last):
+[2019-11-27 13:07:58,677] {base_task_runner.py:115} INFO - Job 2: Subtask run_goal_crawler   File "/home/exceptions/env3.7/bin/airflow", line 37, in <module>
+[2019-11-27 13:07:58,677] {base_task_runner.py:115} INFO - Job 2: Subtask run_goal_crawler     args.func(args)
+[2019-11-27 13:07:58,677] {base_task_runner.py:115} INFO - Job 2: Subtask run_goal_crawler   File "/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/utils/cli.py", line 74, in wrapper
+[2019-11-27 13:07:58,677] {base_task_runner.py:115} INFO - Job 2: Subtask run_goal_crawler     return f(*args, **kwargs)
+[2019-11-27 13:07:58,678] {base_task_runner.py:115} INFO - Job 2: Subtask run_goal_crawler   File "/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/bin/cli.py", line 551, in run
+[2019-11-27 13:07:58,678] {base_task_runner.py:115} INFO - Job 2: Subtask run_goal_crawler     _run(args, dag, ti)
+[2019-11-27 13:07:58,678] {base_task_runner.py:115} INFO - Job 2: Subtask run_goal_crawler   File "/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/bin/cli.py", line 469, in _run
+[2019-11-27 13:07:58,678] {base_task_runner.py:115} INFO - Job 2: Subtask run_goal_crawler     pool=args.pool,
+[2019-11-27 13:07:58,678] {base_task_runner.py:115} INFO - Job 2: Subtask run_goal_crawler   File "/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/utils/db.py", line 74, in wrapper
+[2019-11-27 13:07:58,678] {base_task_runner.py:115} INFO - Job 2: Subtask run_goal_crawler     return func(*args, **kwargs)
+[2019-11-27 13:07:58,678] {base_task_runner.py:115} INFO - Job 2: Subtask run_goal_crawler   File "/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 930, in _run_raw_task
+[2019-11-27 13:07:58,678] {base_task_runner.py:115} INFO - Job 2: Subtask run_goal_crawler     result = task_copy.execute(context=context)
+[2019-11-27 13:07:58,678] {base_task_runner.py:115} INFO - Job 2: Subtask run_goal_crawler   File "/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/operators/python_operator.py", line 113, in execute
+[2019-11-27 13:07:58,678] {base_task_runner.py:115} INFO - Job 2: Subtask run_goal_crawler     return_value = self.execute_callable()
+[2019-11-27 13:07:58,678] {base_task_runner.py:115} INFO - Job 2: Subtask run_goal_crawler   File "/home/exceptions/env3.7/lib/python3.7/site-packages/airflow/operators/python_operator.py", line 118, in execute_callable
+[2019-11-27 13:07:58,679] {base_task_runner.py:115} INFO - Job 2: Subtask run_goal_crawler     return self.python_callable(*self.op_args, **self.op_kwargs)
+[2019-11-27 13:07:58,679] {base_task_runner.py:115} INFO - Job 2: Subtask run_goal_crawler   File "./src/goal_crawler.py", line 22, in __init__
+[2019-11-27 13:07:58,679] {base_task_runner.py:115} INFO - Job 2: Subtask run_goal_crawler     self.save_to_excel()
+[2019-11-27 13:07:58,679] {base_task_runner.py:115} INFO - Job 2: Subtask run_goal_crawler   File "./src/goal_crawler.py", line 52, in save_to_excel
+[2019-11-27 13:07:58,679] {base_task_runner.py:115} INFO - Job 2: Subtask run_goal_crawler     sheet_name=date_i.split(" ")[0]
+[2019-11-27 13:07:58,679] {base_task_runner.py:115} INFO - Job 2: Subtask run_goal_crawler   File "/home/exceptions/env3.7/lib/python3.7/site-packages/pandas/io/excel/_base.py", line 779, in __exit__
+[2019-11-27 13:07:58,679] {base_task_runner.py:115} INFO - Job 2: Subtask run_goal_crawler     self.close()
+[2019-11-27 13:07:58,679] {base_task_runner.py:115} INFO - Job 2: Subtask run_goal_crawler   File "/home/exceptions/env3.7/lib/python3.7/site-packages/pandas/io/excel/_base.py", line 783, in close
+[2019-11-27 13:07:58,679] {base_task_runner.py:115} INFO - Job 2: Subtask run_goal_crawler     return self.save()
+[2019-11-27 13:07:58,679] {base_task_runner.py:115} INFO - Job 2: Subtask run_goal_crawler   File "/home/exceptions/env3.7/lib/python3.7/site-packages/pandas/io/excel/_openpyxl.py", line 44, in save
+[2019-11-27 13:07:58,680] {base_task_runner.py:115} INFO - Job 2: Subtask run_goal_crawler     return self.book.save(self.path)
+[2019-11-27 13:07:58,680] {base_task_runner.py:115} INFO - Job 2: Subtask run_goal_crawler   File "/home/exceptions/env3.7/lib/python3.7/site-packages/openpyxl/workbook/workbook.py", line 408, in save
+[2019-11-27 13:07:58,680] {base_task_runner.py:115} INFO - Job 2: Subtask run_goal_crawler     save_workbook(self, filename)
+[2019-11-27 13:07:58,680] {base_task_runner.py:115} INFO - Job 2: Subtask run_goal_crawler   File "/home/exceptions/env3.7/lib/python3.7/site-packages/openpyxl/writer/excel.py", line 293, in save_workbook
+[2019-11-27 13:07:58,680] {base_task_runner.py:115} INFO - Job 2: Subtask run_goal_crawler     writer.save()
+[2019-11-27 13:07:58,680] {base_task_runner.py:115} INFO - Job 2: Subtask run_goal_crawler   File "/home/exceptions/env3.7/lib/python3.7/site-packages/openpyxl/writer/excel.py", line 275, in save
+[2019-11-27 13:07:58,680] {base_task_runner.py:115} INFO - Job 2: Subtask run_goal_crawler     self.write_data()
+[2019-11-27 13:07:58,680] {base_task_runner.py:115} INFO - Job 2: Subtask run_goal_crawler   File "/home/exceptions/env3.7/lib/python3.7/site-packages/openpyxl/writer/excel.py", line 75, in write_data
+[2019-11-27 13:07:58,680] {base_task_runner.py:115} INFO - Job 2: Subtask run_goal_crawler     self._write_worksheets()
+[2019-11-27 13:07:58,680] {base_task_runner.py:115} INFO - Job 2: Subtask run_goal_crawler   File "/home/exceptions/env3.7/lib/python3.7/site-packages/openpyxl/writer/excel.py", line 215, in _write_worksheets
+[2019-11-27 13:07:58,680] {base_task_runner.py:115} INFO - Job 2: Subtask run_goal_crawler     self.write_worksheet(ws)
+[2019-11-27 13:07:58,680] {base_task_runner.py:115} INFO - Job 2: Subtask run_goal_crawler   File "/home/exceptions/env3.7/lib/python3.7/site-packages/openpyxl/writer/excel.py", line 200, in write_worksheet
+[2019-11-27 13:07:58,681] {base_task_runner.py:115} INFO - Job 2: Subtask run_goal_crawler     writer.write()
+[2019-11-27 13:07:58,681] {base_task_runner.py:115} INFO - Job 2: Subtask run_goal_crawler   File "/home/exceptions/env3.7/lib/python3.7/site-packages/openpyxl/worksheet/_writer.py", line 354, in write
+[2019-11-27 13:07:58,681] {base_task_runner.py:115} INFO - Job 2: Subtask run_goal_crawler     self.write_top()
+[2019-11-27 13:07:58,681] {base_task_runner.py:115} INFO - Job 2: Subtask run_goal_crawler   File "/home/exceptions/env3.7/lib/python3.7/site-packages/openpyxl/worksheet/_writer.py", line 98, in write_top
+[2019-11-27 13:07:58,681] {base_task_runner.py:115} INFO - Job 2: Subtask run_goal_crawler     self.write_properties()
+[2019-11-27 13:07:58,681] {base_task_runner.py:115} INFO - Job 2: Subtask run_goal_crawler   File "/home/exceptions/env3.7/lib/python3.7/site-packages/openpyxl/worksheet/_writer.py", line 60, in write_properties
+[2019-11-27 13:07:58,681] {base_task_runner.py:115} INFO - Job 2: Subtask run_goal_crawler     self.xf.send(props.to_tree())
+[2019-11-27 13:07:58,681] {base_task_runner.py:115} INFO - Job 2: Subtask run_goal_crawler   File "/home/exceptions/env3.7/lib/python3.7/site-packages/openpyxl/worksheet/_writer.py", line 294, in get_stream
+[2019-11-27 13:07:58,681] {base_task_runner.py:115} INFO - Job 2: Subtask run_goal_crawler     xf.write(el)
+[2019-11-27 13:07:58,681] {base_task_runner.py:115} INFO - Job 2: Subtask run_goal_crawler   File "src/lxml/serializer.pxi", line 1652, in lxml.etree._IncrementalFileWriter.write
+[2019-11-27 13:07:58,681] {base_task_runner.py:115} INFO - Job 2: Subtask run_goal_crawler TypeError: got invalid input value of type <class 'xml.etree.ElementTree.Element'>, expected string or Element
+[2019-11-27 13:08:00,440] {logging_mixin.py:112} INFO - [2019-11-27 13:08:00,439] {local_task_job.py:103} INFO - Task exited with return code 1
