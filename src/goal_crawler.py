@@ -16,9 +16,12 @@ class CrawlLiveScores():
     def __init__(self):
         self.endtime = dt.date.today()
         self.starttime = self.endtime - dt.timedelta(days=7)
-        filename_start = self.starttime.strftime("%m_%d_%Y")
-        filename_end = self.endtime.strftime("%m_%d_%Y")
-        self.filename = f"teamscores-{filename_start}-{filename_end}"
+        filename_startdate = self.starttime.strftime("%m_%d_%Y")
+        filename_enddate = self.endtime.strftime("%m_%d_%Y")
+        self.starttime = self.starttime.strftime("%m/%d/%Y")
+        self.endtime = self.endtime.strftime("%m/%d/%Y")
+        self.test = "1_111"
+        self.filename = f"teamscores-{filename_startdate}-{filename_enddate}"
         self.save_to_excel()
 
     def prepare_dates(self):
@@ -28,8 +31,8 @@ class CrawlLiveScores():
                             ).astype(str)
         return self.daterange
 
-    def save_to_excel(self):
-        with pd.ExcelWriter(f"{self.filename}.xlsx") as writer:
+    def save_to_excel(self): 
+        with pd.ExcelWriter(f"{self.filename}.xlsx", engine="xlsxwriter") as writer:
             for i in range(len(self.prepare_dates())):
                 date_i = self.prepare_dates()[i]
                 footdates = f"{self.URL_}{date_i.split(' ')[0]}"
@@ -51,7 +54,7 @@ class CrawlLiveScores():
                     index=False,
                     sheet_name=date_i.split(" ")[0]
                 )
-
+            writer.save()
 
 if __name__ == '__main__':
     CrawlLiveScores()
